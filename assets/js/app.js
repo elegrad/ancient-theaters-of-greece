@@ -1,5 +1,5 @@
 var config = {
-  geojson: "https://gist.githubusercontent.com/chiotis/0ac1c21db3429287c6f3942c5eeffb86/raw/8c4621bb20e47184a2cb7953c38b9def2b3d7ceb/map.geojson",
+  geojson: "https://gist.githubusercontent.com/chiotis/0ac1c21db3429287c6f3942c5eeffb86/raw/3534b2b3e7b7776c0aa5873a9cdd4301e77c11ac/map.geojson",
   title: "Federal Citizen Science and Crowdsourcing Projects",
   layerName: "Projects",
   hoverProperty: "project_name",
