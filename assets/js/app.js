@@ -16,8 +16,7 @@ var properties = [{
   },
   filter: {
     type: "string"
-  },
-  info: false
+  }
 }, {
   value: "status",
   label: "Κατάσταση",
@@ -27,66 +26,6 @@ var properties = [{
   },
   filter: {
     type: "string"
-  }
-}, {
-  value: "agency_sponsor",
-  label: "Federal Sponsor(s)",
-  table: {
-    visible: true,
-    sortable: true
-  },
-  filter: {
-    type: "string"
-  }
-}, {
-  value: "agency_partner",
-  label: "Agency Partner",
-  table: {
-    visible: true,
-    sortable: true
-  },
-  filter: {
-    type: "string"
-  }
-}, {
-  value: "project_topic",
-  label: "Topic(s)",
-  table: {
-    visible: true,
-    sortable: true
-  },
-  filter: {
-    type: "integer"
-  }
-}, {
-  value: "project_description",
-  label: "Description",
-  table: {
-    visible: true,
-    sortable: true
-  },
-  filter: {
-    type: "integer"
-  }
-}, {
-  value: "project_url",
-  label: "URL",
-  table: {
-    visible: false,
-    sortable: true
-  },
-  filter: {
-    type: "integer"
-  }
-}, {
-  value: "participation_tasks",
-  label: "Participation",
-  table: {
-    visible: true,
-    sortable: true
-  },
-  filter: {
-    type: "integer"
   }
 }];
 
