@@ -1,5 +1,5 @@
 var config = {
-  geojson: "https://gist.githubusercontent.com/chiotis/0ac1c21db3429287c6f3942c5eeffb86/raw/3534b2b3e7b7776c0aa5873a9cdd4301e77c11ac/map.geojson",
+  geojson: "https://elegrad.github.io/ancient-theaters-of-greece/assets/data.geojson",
   title: "Αρχαία Θέατρα της Ελλάδας",
   layerName: "Αρχαία Θέατρα",
   hoverProperty: "theater_name",
@@ -20,18 +20,13 @@ var properties = [{
   info: false
 }, {
   value: "status",
-  label: "Status",
+  label: "Κατάσταση",
   table: {
     visible: true,
     sortable: true
   },
   filter: {
-    type: "string",
-    input: "checkbox",
-    vertical: true,
-    multiple: true,
-    operators: ["in", "not_in", "equal", "not_equal"],
-    values: []
+    type: "string"
   }
 }, {
   value: "agency_sponsor",
