@@ -8,8 +8,8 @@ var config = {
 };
 
 var properties = [{
-  value: "project_name",
-  label: "Project Name",
+  value: "theater_name",
+  label: "Όνομα Θεάτρου",
   table: {
     visible: true,
     sortable: true
