@@ -1,7 +1,7 @@
 var config = {
-  geojson: "https://gist.githubusercontent.com/chiotis/0ac1c21db3429287c6f3942c5eeffb86/raw/01f62b03e13b289c356498ed253e6fe2ab681e44/map.geojson",
-  title: "Διαζωμα",
-  layerName: "Αρχαία Θέατρα",
+  geojson: "https://gist.githubusercontent.com/chiotis/0ac1c21db3429287c6f3942c5eeffb86/raw/732f82310a552641ee456510b22f733a9bb42a93/map.geojson",
+  title: "Congress Park Trees",
+  layerName: "Trees",
   hoverProperty: "species_sim",
   sortProperty: "dbh_2012_inches_diameter_at_breast_height_46",
   sortOrder: "desc"
