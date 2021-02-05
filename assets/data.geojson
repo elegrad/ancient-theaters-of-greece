@@ -1,0 +1,117 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"marker-color": "#c00",
+"name": "Αρχαίο Θέατρο Διονύσου"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+23.727783858776093,
+37.970294640388985
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"marker-color": "#c00",
+"name": "Αρχαίο Θέατρο Ζέας"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+23.64472657442093,
+37.93730368573879
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"marker-color": "#c00",
+"name": "Αρχαίο Θέατρο Ερέτριας"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+23.7905877828598,
+38.39858794944401
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"marker-color": "#c00",
+"name": "Ρωμαϊκό ωδείο Νικόπολης"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+20.737327337265015,
+39.023368042936724
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Αρχαίο θέατρο Μεσσήνης",
+"marker-color": "#c00"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+21.91889941692352,
+37.17779139992719
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Αρχαίο θέατρο Μυτιλήνης",
+"marker-color": "#c00"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+26.54692769050598,
+39.11057451977313
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Αρχαίο θέατρο Λίνδου",
+"marker-color": "#c00"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+28.0870521068573,
+36.089807160295294
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"marker-color": "#c00",
+"name": "Αρχαίο θέατρο Τραχώνων"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+23.74147882066707,
+37.91597062040676
+]
+}
+}
+]
+}
