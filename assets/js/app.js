@@ -1,10 +1,10 @@
 var config = {
   geojson: "https://gist.githubusercontent.com/chiotis/0ac1c21db3429287c6f3942c5eeffb86/raw/3534b2b3e7b7776c0aa5873a9cdd4301e77c11ac/map.geojson",
-  title: "Federal Citizen Science and Crowdsourcing Projects",
-  layerName: "Projects",
-  hoverProperty: "project_name",
-  sortProperty: "agency_sponsor",
-  sortOrder: "desc"
+  title: "Αρχαία Θέατρα της Ελλάδας",
+  layerName: "Αρχαία Θέατρα",
+  hoverProperty: "theater_name",
+  sortProperty: "theater_name",
+  sortOrder: "asc"
 };
 
 var properties = [{
