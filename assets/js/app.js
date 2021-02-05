@@ -1,6 +1,6 @@
 var config = {
-  geojson: "https://gist.githubusercontent.com/JJediny/b238fc15e3b31a2e3432/raw/3d73dbd7d4c950c8e85fdb7485567e84eca90772/CitizenScienceandCrowdsourcing_WWilson.geojson",
-  title: "Διάζωμα Αρχαία Θέατρα",
+  geojson: "http://jjediny.github.io/geojson-dashboard/assets/data.geojson",
+  title: "Federal Citizen Science and Crowdsourcing Projects",
   layerName: "Projects",
   hoverProperty: "project_name",
   sortProperty: "agency_sponsor",
@@ -263,24 +263,24 @@ function buildConfig() {
 
 // Basemap Layers
 var mapboxTerrian = L.tileLayer(
-  "https://{s}.tiles.mapbox.com/v3/energy.map-ayrdk7iy/{z}/{x}/{y}.png", {
+  "http://{s}.tiles.mapbox.com/v3/energy.map-ayrdk7iy/{z}/{x}/{y}.png", {
     maxZoom: 18,
     subdomains: ["a", "b", "c"],
-    attribution: 'Tiles courtesy of <a href="https://www.mapbox.com" target="_blank">Mapbox Team</a>. Map data (c) <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
+    attribution: 'Tiles courtesy of <a href="http://www.mapbox.com" target="_blank">Mapbox Team</a>. Map data (c) <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
   });
 
 var humanitarianOSM = L.tileLayer(
-  "https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
+  "http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
     maxZoom: 19,
     subdomains: ["a", "b", "c"],
-    attribution: 'Tiles courtesy of <a href="https://www.hotosm.org" target="_blank">Humanitarian OpenStreetMap Team</a>. Map data (c) <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
+    attribution: 'Tiles courtesy of <a href="http://www.hotosm.org" target="_blank">Humanitarian OpenStreetMap Team</a>. Map data (c) <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors, CC-BY-SA.'
   });
 
 var stamenToner = L.tileLayer(
-  "https://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png", {
+  "http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png", {
     maxZoom: 19,
     subdomains: ["a", "b", "c"],
-    attribution: 'Labels courtesy of <a href="https://maps.stamen.com/" target="_blank">Stamen Design</a>. Map data (c) <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors, CC-BY-3.0.'
+    attribution: 'Labels courtesy of <a href="http://maps.stamen.com/" target="_blank">Stamen Design</a>. Map data (c) <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors, CC-BY-3.0.'
   });
 
 var highlightLayer = L.geoJson(null, {
@@ -322,12 +322,13 @@ var featureLayer = L.geoJson(null, {
       markerColor = feature.properties["marker-color"];
     } else {
       markerColor = "#FF0000";
+      markerBorder = "#000000"
     }
     return L.circleMarker(latlng, {
-      radius: 3,
+      radius: 6,
       weight: 1,
       fillColor: markerColor,
-      color: markerColor,
+      color: markerBorder,
       opacity: 1,
       fillOpacity: 0.5
     });
