@@ -1,7 +1,7 @@
 var config = {
-  geojson: "https://web.fulcrumapp.com/shares/a5c8e07368efde43.geojson",
-  title: "Congress Park Trees",
-  layerName: "Trees",
+  geojson: "https://gist.githubusercontent.com/chiotis/0ac1c21db3429287c6f3942c5eeffb86/raw/01f62b03e13b289c356498ed253e6fe2ab681e44/map.geojson",
+  title: "Διαζωμα",
+  layerName: "Αρχαία Θέατρα",
   hoverProperty: "species_sim",
   sortProperty: "dbh_2012_inches_diameter_at_breast_height_46",
   sortOrder: "desc"
