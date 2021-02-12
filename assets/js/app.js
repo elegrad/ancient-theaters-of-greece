@@ -220,7 +220,7 @@ var stamenToner = L.tileLayer(
 var highlightLayer = L.geoJson(null, {
   pointToLayer: function(feature, latlng) {
     return L.circleMarker(latlng, {
-      radius: 5,
+      radius: 10,
       color: "#FFF",
       weight: 2,
       opacity: 1,
@@ -258,8 +258,8 @@ var featureLayer = L.geoJson(null, {
       markerColor = "#FF0000";
     }
     return L.circleMarker(latlng, {
-      radius: 3,
-      weight: 1,
+      radius: 7,
+      weight: 2,
       fillColor: markerColor,
       color: markerColor,
       opacity: 1,
